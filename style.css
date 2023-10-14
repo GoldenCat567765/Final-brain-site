@@ -1,0 +1,41 @@
+.company {
+    font-size: 15px;
+    color: black
+    background-color: orange;
+    display: inline;
+}
+
+.sitemaker {
+    display: inline-block;
+    float: right;
+    margin-top: auto;
+}
+
+.link:hover {
+    color: #6D3F5B;
+}
+
+.link {
+    color: blue;
+}
+
+.abzaz {
+    display: inline-block;
+    background-color: tomato;
+}
+
+main {
+    background-image: url(градиент.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+img {
+    float: center;
+}
+
+img:hover {
+    filter: grayscale(100%);
+}
